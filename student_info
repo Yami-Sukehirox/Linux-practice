@@ -1,0 +1,62 @@
+echo "==========================="                                                                                                                                    
+echo "    STUDENT INFORMATION    "                                                                                                                                    
+echo "==========================="                                                                                                                                    
+                                                                                                                                                                      
+echo "Enter student name:"                                                                                                                                            
+read name                                                                                                                                                             
+                                                                                                                                                                      
+echo "Enter student age:"                                                                                                                                             
+read age                                                                                                                                                              
+                                                                                                                                                                      
+echo "Enter student ID:"                                                                                                                                              
+read ID                                                                                                                                                               
+                                                                                                                                                                      
+echo "Enter course:"                                                                                                                                                  
+read course                                                                                                                                                           
+                                                                                                                                                                      
+echo "Enter year level:"                                                                                                                                              
+read level                                                                                                                                                            
+                                                                                                                                                                      
+echo""                                                                                                                                                                
+echo "==================="                                                                                                                                            
+echo "  STUDENT PROFILE"                                                                                                                                              
+echo "==================="                                                                                                                                            
+                                                                                                                                                                      
+echo "Name: $name"                                                                                                                                                    
+echo "Age: $age"                                                                                                                                                      
+echo "Student_ID: $ID"                                                                                                                                                
+echo "Course: $course"                                                                                                                                                
+echo "Year level: $level"                                                                                                                                             
+                                                                                                                                                                      
+echo "======================================="                                                                                                                        
+
+
+[liancruspero@webminal my_info]$ mkdir student_sytem                                                                                                                  
+[liancruspero@webminal my_info]$ cd student_sytem                                                                                                                     
+[liancruspero@webminal student_sytem]$ touch student.sh                                                                                                               
+[liancruspero@webminal student_sytem]$ nano student.sh                                                                                                                
+[liancruspero@webminal student_sytem]$ bash student.sh                                                                                                                
+===========================                                                                                                                                           
+    STUDENT INFORMATION                                                                                                                                               
+===========================                                                                                                                                           
+Enter student name:                                                                                                                                                   
+Lian                                                                                                                                                                  
+Enter student age:                                                                                                                                                    
+18
+Enter student ID:                                                                                                                                                     
+20260081                                                                                                                                                              
+Enter course:                                                                                                                                                         
+BSIT                                                                                                                                                                  
+Enter year level:                                                                                                                                                     
+1st 
+                                                                                                                                                                      
+===================                                                                                                                                                   
+  STUDENT PROFILE                                                                                                                                                     
+===================                                                                                                                                                   
+Name: Lian                                                                                                                                                            
+Age: 18                                                                                                                                                               
+Student_ID: 20260081                                                                                                                                                  
+Course: BSIT                                                                                                                                                          
+Year level: 1st                                                                                                                                                       
+=======================================                                                                                                                               
+[liancruspero@webminal student_sytem]$    
