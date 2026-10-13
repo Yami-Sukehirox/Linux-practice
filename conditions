@@ -1,0 +1,10 @@
+age=19                                                                                                                                                           
+                                                                                                                                                                 
+if [ "$age" -ge 18 ]; then                                                                                                                                       
+      echo "You are an adult."                                                                                                                                   
+fi                                                                                                                                                               
+
+
+[liancruspero@webminal patient_system]$ bash lesson1.sh                                                                                                          
+You are an adult.
+[liancruspero@webminal patient_system]$ 
