@@ -1,0 +1,7 @@
+// combine variables
+
+[liancruspero@webminal new]$ first_name="Lian Angelo"                                                                                                             
+[liancruspero@webminal new]$ last_name="Cruspero"                                                                                                                 
+[liancruspero@webminal new]$ full_name="$first_name $last_name"                                                                                                   
+[liancruspero@webminal new]$ echo "Full name: $full_name"                                                                                                         
+Full name: Lian Angelo Cruspero
