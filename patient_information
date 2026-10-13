@@ -38,5 +38,35 @@ echo "TOTAL BILL: PHP $total"
 echo "======================="                                                                                                                                   
 echo "THANK YOU!!!"                                                                                                                                              
 
+[liancruspero@webminal patient_system]$ bash patient.sh
+=========================
+  PATIENT INFORMATION
+=========================
+Enter patient name: Lian Cruspero
+Enter patient ID: 20260081
+Enter patient age: 18
+Enter patient gender: Male
+Enter the symtoms: Cute ayyHAHHAA
+Enter the assign doctor: Mary Alwen
+Consulation fee: 11,900
+Laboratory fee: 10,908
+Medicine fee: 5,000
 
+=======================
+ PATIENT INFORMATION
+=======================
+Full name: Lian Cruspero
+Patient ID: 20260081
+Patient Age: 18
+Patient gender: Male
+Patient symtoms: Cute ayyHAHHAA
+Assign Doctor: Mary Alwen
+-----------------------
+Consulation: PHP 11,900
+Laboratory: PHP 10,908
+Medicine: PHP 5,000
+------------------------
+TOTAL BILL: PHP 1808
+=======================
+THANK YOU!!!
                     
