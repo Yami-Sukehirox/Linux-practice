@@ -8,3 +8,20 @@ fi
 [liancruspero@webminal patient_system]$ bash lesson1.sh                                                                                                          
 You are an adult.
 [liancruspero@webminal patient_system]$ 
+-eq
+Equal to
+
+-ne
+Not equal to
+
+-gt
+Greater than
+
+-lt
+Less than
+
+-ge
+Greater than or equal to
+
+-le
+Less than or equal to
