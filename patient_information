@@ -1,0 +1,42 @@
+echo "========================="                                                                                                                                 
+echo "  PATIENT INFORMATION"                                                                                                                                     
+echo "========================="                                                                                                                                 
+                                                                                                                                                                 
+#patient information                                                                                                                                             
+                                                                                                                                                                 
+read -p "Enter patient name: " name                                                                                                                              
+read -p "Enter patient ID: " patient_ID                                                                                                                          
+read -p "Enter patient age: " patient_age                                                                                                                        
+read -p "Enter patient gender: " patient_gender                                                                                                                  
+read -p "Enter the symtoms: " symtoms                                                                                                                            
+read -p "Enter the assign doctor: " doctor                                                                                                                       
+                                                                                                                                                                 
+#service charges (BILLS_in_PESOs)                                                                                                                                
+                                                                                                                                                                 
+read -p "Consulation fee: " consulation                                                                                                                          
+read -p "Laboratory fee: " laboratory                                                                                                                            
+read -p "Medicine fee: " medicine                                                                                                                                
+                                                                                                                                                                 
+total=$((consulation + laboratory + medicine))                                                                                                                   
+                                                                                                                                                                 
+echo ""                                                                                                                                                          
+echo "======================="                                                                                                                                   
+echo " PATIENT INFORMATION"                                                                                                                                      
+echo "======================="                                                                                                                                   
+echo "Full name: $name"                                                                                                                                          
+echo "Patient ID: $patient_ID"                                                                                                                                   
+echo "Patient Age: $patient_age"                                                                                                                                 
+echo "Patient gender: $patient_gender"                                                                                                                           
+echo "Patient symtoms: $symtoms"                                                                                                                                 
+echo "Assign Doctor: $doctor"                                                                                                                                    
+echo "-----------------------"                                                                                                                                   
+echo "Consulation: PHP $consulation"                                                                                                                             
+echo "Laboratory: PHP $laboratory"                                                                                                                               
+echo "Medicine: PHP $medicine"                                                                                                                                   
+echo "------------------------"                                                                                                                                  
+echo "TOTAL BILL: PHP $total"                                                                                                                                    
+echo "======================="                                                                                                                                   
+echo "THANK YOU!!!"                                                                                                                                              
+
+
+                    
